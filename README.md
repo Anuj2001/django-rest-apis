@@ -13,7 +13,8 @@ There are three types of authentication we can use in DRF:
 
 3). TokenAuthentication Method
 
-#PREQUISITES
+# PREQUISITES
+
 Following programmes should be installed on your computer to run this project properly:
 
 Python 3.6+
@@ -24,7 +25,8 @@ To install virtual environment on your system use:
 
 pip install virtualenv
 
-#Installation and Running :
+# Installation and Running :
+
 git clone https://github.com/Anuj2001/django-rest-apis/tree/master.git
 
 virtualenv myenv
@@ -41,7 +43,8 @@ python manage.py runserver
 
 Open Browser and Type http://127.0.0.1:8000
 
-#Supporting Materials:
+# Supporting Materials:
+
 Difference between Session Authentication And Token Authentication:
 https://www.baeldung.com/cs/tokens-vs-sessions
 
