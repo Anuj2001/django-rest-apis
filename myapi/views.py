@@ -10,22 +10,22 @@ from .custompermissions import CustomPermissions
 class profile_create_api(generics.CreateAPIView):
     queryset = Profile.objects.all()
     serializer_class = profile_serializer
-    permission_classes = [CustomPermissions]
+    #permission_classes = [CustomPermissions]
 # To get some data:
 class profile_list_api(generics.ListAPIView):
     queryset = Profile.objects.all()
     serializer_class = profile_serializer
-    permission_classes = [CustomPermissions]
+    #permission_classes = [CustomPermissions]
 # To updata a record:
 class profile_update_api(generics.UpdateAPIView):
     queryset = Profile.objects.all()
     serializer_class = profile_serializer
-    permission_classes = [CustomPermissions]
+    #permission_classes = [CustomPermissions]
 # To delete a record:
 class profile_delete_api(generics.DestroyAPIView):
     queryset = Profile.objects.all()
     serializer_class = profile_serializer
-    permission_classes = [CustomPermissions]
+    #permission_classes = [CustomPermissions]
 
 
 
