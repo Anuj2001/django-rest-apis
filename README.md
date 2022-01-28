@@ -31,7 +31,7 @@ git clone https://github.com/Anuj2001/django-rest-apis/tree/master.git
 
 virtualenv myenv
 
-source venv/bin/activate
+source myenv/bin/activate
 
 pip install -r requirements.txt
 
